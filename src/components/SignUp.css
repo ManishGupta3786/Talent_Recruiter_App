@@ -1,0 +1,70 @@
+.signup {
+    display:flex;
+    justify-content: center;
+    margin: 70px;
+  }
+
+fieldset {
+    background-color: #eeeeee;
+    width: 450px;
+    /* padding: 30px; */
+}
+  
+legend {
+    background-color: rgb(91, 90, 90);
+    color: white;
+    height: 30px;
+    width: fit-content;
+    padding: 2px
+    /* padding: 5px 10px; */
+}
+  
+label{
+    width: 150px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input{
+    width: 280px;
+}
+
+#submit{
+    background-color: rgb(118, 242, 118);
+    color: white;
+    border-radius: 10%;
+    font-size: medium;
+    cursor: pointer;
+}
+
+#cancle{
+    background-color: rgb(160, 160, 242);
+    color: white;
+    border-radius: 10%;
+    font-size: medium;
+    cursor: pointer;
+}
+
+button{
+    margin-right: 10px ;
+}
+
+
+/* button:disabled, */
+button[disabled=false]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+span{
+    font-size: 10px;
+    color: red;
+}
+
+p{
+    text-align: right;
+    margin-right: 80px;
+}

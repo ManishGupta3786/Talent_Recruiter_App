@@ -1,0 +1,11 @@
+.content{
+    height: 85vh;
+    width: auto;
+    background-color:white;
+    display: flex;
+}
+
+.content img{
+    height: 85vh;
+    width: 50%;
+}
